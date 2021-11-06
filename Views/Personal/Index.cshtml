@@ -1,0 +1,12 @@
+<h1>Pagina personal</h1>
+<div class="card" style="width: 18rem;">
+  <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/d045c4a3-2dc5-422e-8487-09aa86ca50c6-profile_image-300x300.png" class="card-img-top" alt="...">
+</div>
+@model Personal
+
+@Html.LabelFor(e=>e.name, "Name: ") @Model.name <br/>
+@Html.LabelFor(e=>e.lastname, "Lastname: ") @Model.lastname <br/>
+@Html.LabelFor(e=>e.age, "Age: ") @Model.age <br/>
+@Html.LabelFor(e=>e.mail, "Mail: ") @Model.mail <br/>
+@Html.LabelFor(e=>e.number, "Number: ") @Model.number <br/>
+@Html.LabelFor(e=>e.address, "Address: ") @Model.address <br/> 
